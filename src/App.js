@@ -7,6 +7,7 @@ import Laranja from "./Assets/laranja.png"
 import Limao from "./Assets/limao.png"
 import Manga from "./Assets/manga.png"
 import Tomate from "./Assets/tomate.png"
+import Contador from "./Contador.js"
 
 function App() {
   const [frutas,setFrutas] = useState([
@@ -23,6 +24,7 @@ function App() {
         <img src={item} alt=""/>
       ))}
       </div>
+<Contador />
     </main>
   );
 }
